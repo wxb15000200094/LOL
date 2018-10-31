@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+a{
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	position: absolute;
+	
+}
+header>#head{
+	width: 100%;
+	max-width: 1358px;
+	min-width:1230px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 10;	
+}
+header>#head>a{
+	float:left;
+	width: 132px;
+	height: 49px;
+	margin-top: 14px;
+}
+header>img{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+header>#head>ul{
+	list-style: none;
+	float: left;
+	width: 55%;
+	height: 78px;
+	box-sizing: border-box;
+	margin-left:30px;
+	padding-top:16px ;
+}
+header>#head>ul>li{
+	width: 20%;
+	text-align: center;
+	float: left;
+}
+header>#head>ul>li>a>span{
+	display: block;
+	color: #fff;
+	font-size: 18px;
+	letter-spacing:1px;
+}
+header>#head>ul>li>a>.z1{
+	color: #aeaeae;
+	font-size: 11px;
+	margin-top: -1px;
+}
+header>#head>.sc{
+	float: left;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin: 22px 20px 0 15px;
+}
+header>#head>.app{
+	float: left;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 40px;
+	margin: 19px 12px 0 10px;
+}
+header>#head>.user{
+	float: left;
+	width: 244px;
+	height: 66px;
+	position: relative;
+	margin-left: 20px ;
+
+}
+header>#head>.user>a>img{
+	margin-top: 10px;
+	margin-right: 10px;
+	float:left ;
+}
+header>#head>.user>p{
+	font: 16px/66px  "微软雅黑";
+	color: #fff;
+	text-align: center;
+	float: left;
+}
+header>#head>.user>p>a{
+	font: 16px/66px  "微软雅黑";
+	color:#fff3d0;
+	text-align: center;
+}
+header>#head_nav{
+	
+	max-width:1358px;
+	min-width: 1230px;
+	position: relative;
+	height: auto;
+	z-index: 1;
+	background:transparent;
+	margin: 0 auto;
+	display: none;
+	
+}
+header>#head_nav>ul{
+	list-style: none;
+	position: relative;
+	width: 55%;
+	position: relative;
+	left: 163px;
+
+	
+}
+header>#head_nav>ul>li{
+	height: 29px;
+	width: 20%;
+	text-align: center;
+	float: left;
+}
+
+header>#head_nav>ul>li>p>a{
+	font: 14px/29px "微软雅黑";
+	color: #dfdfdf;
+	text-align: center;
+}
+header>#head_nav>ul>li>p>a:hover{
+	color:#e9c06c;
+}
+
+header>.bg{
+	width:1920px;
+	
+	position:absolute;
+	left: 50%;
+	top: 0;
+	margin-left:-960px;
+	
+	
+}
